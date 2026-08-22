@@ -1,19 +1,19 @@
 class Ctx < Formula
   desc "Local context layer for AI coding agents: see the bill, trim only what randomized checks clear"
   homepage "https://github.com/saurabh0392/ctx"
-  version "0.7.2"
+  version "0.7.3"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/saurabh0392/ctx/releases/download/v0.7.2/ctx-aarch64-apple-darwin.tar.gz"
-    sha256 "b267f6be1a76c5eaf02767123bac8f587fc7aaa0b1e53f8f39738158174f8cd6"
+    url "https://github.com/saurabh0392/ctx/releases/download/v0.7.3/ctx-aarch64-apple-darwin.tar.gz"
+    sha256 "9886e76cae2d4ab1baa25422a835529fbc9f167ce52cc6a12445d11ca87199c8"
   end
 
   on_intel do
-    url "https://github.com/saurabh0392/ctx/releases/download/v0.7.2/ctx-x86_64-apple-darwin.tar.gz"
-    sha256 "ea7c4c2f10fdd571bedce13e07ddc7b6d1936121cb5d9f712eb1769940f99f51"
+    url "https://github.com/saurabh0392/ctx/releases/download/v0.7.3/ctx-x86_64-apple-darwin.tar.gz"
+    sha256 "3a24e1d12883dc30c1cb587c01ae60c711a0aa2722ad5ff76d1bb228e6625926"
   end
 
   def install
